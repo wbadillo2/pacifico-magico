@@ -1,0 +1,7 @@
+main{
+  /*   background-image: url('https://cdn.colombia.com/sdi/2014/01/16/bahia-solano-909709.webp') ; */
+    background-image: url('../../public/bahia.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

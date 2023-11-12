@@ -1,4 +1,6 @@
 import '@/app/ui/global.css';
+import { poppins } from './ui/fonts';
+import Navbar from '@/app/ui/navbar'
 
 export default function RootLayout({
   children,
@@ -7,10 +9,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      skhvaih of
-      fvjndfv 
-      dfvv
+      <body className={`${poppins.className}`} >
+        <Navbar />
+        {children}
+      </body>
+
     </html>
   );
 }
