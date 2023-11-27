@@ -80,7 +80,7 @@ const Page: React.FC = () => {
 
       <div className='snap-center'>
         <section className='bg-white min-h-screen w-full'>
-            <h3 className="text-center pt-24 text">Hoteles</h3>
+            <h3 className="text-center pt-24 text-2xl ">HOTELES</h3>
           <div className="cards-container mx-auto px-6 py-10 w-full gap-4" >
             {hotels.map((hotel) => {
               return <HotelCard key={hotel.id} hotel={hotel} />;
