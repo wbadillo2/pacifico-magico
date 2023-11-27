@@ -30,7 +30,7 @@ const hotels = [
     location: "Playa sol",
     distance: 4.5,
     images: [
-      '/assets/images/sol-1.webp  ',
+      '/assets/images/sol1.webp  ',
       '/assets/images/sol-2.webp',
       '/assets/images/sol-3.webp',
     ],
