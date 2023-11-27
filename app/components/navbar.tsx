@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link';
 import logo from '@/public/logo.svg';
 import Image from 'next/image';
@@ -6,6 +6,21 @@ import { varela } from '../ui/fonts';
 
 
 const Navbar = () => {
+
+/*     const [bgColor, setBgColor] = useState(false)
+
+    const changeBgColor = () => {
+        if(window.scrollY >= 50) {
+            setBgColor(true);
+        }
+        else{
+            setBgColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBgColor)
+ */
+
     return (
 
         <nav className='fixed z-20 p-2 px-20 flex flex-row justify-between h-20 text-white bg-opacity-70  bg-black w-full'>
