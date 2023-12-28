@@ -32,8 +32,8 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row gap-4 items-center text-sm'>
                 <Link href={'plans'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Planes </Link>
-                <Link href={'hotels'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Hoteles </Link>
-                <Link href={'places'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Lugares de interés </Link>
+                <Link href={'/#hotels'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Hoteles </Link>
+                <Link href={'/#places'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Lugares de interés </Link>
                 <Link href={'contact'} className='flex flex-row justify-center items-center text-white hover:text-blue-300'>Contacto </Link>
                 <Link href={'about'} className='bg-transparent hover:bg-blue-900 border-2 hover:border-blue-600 rounded-full h-10 px-4  flex flex-row items-center'>Realizar reserva </Link>
             </div>

@@ -61,17 +61,20 @@ const Card: React.FC<{ hotel: Hotel }> = ({ hotel }) => {
                     <div className='h-[336px] w-[336px] rounded-xl relative'>
                         <Image width={336} height={336} src={hotel.images[count]} className="z-0 rounded-xl w-full h-full object-cover" alt="..." />
                         <button type='button' onClick={slideLeft} className='absolute flex justify-center items-center top-[50%]  rounded-full w-8 h-8' title={`leftSlide-${hotel.name}`}>
-                            <div className='bg-black  w-7 h-7 absolute rounded-full'></div>
                             <ArrowLeftCircleIcon className='absolute w-9  fill-white/75 hover:fill-white duration-200' />
                         </button>
-                        <button type='button' onClick={slideRight} className='absolute flex justify-center items-center top-[50%] right-0 rounded-full w-8 h-8' title={`rightSlide-${hotel.name}`}>
+                       {/*  <button type='button' onClick={slideLeft} className='absolute flex justify-center items-center top-[50%]  rounded-full w-8 h-8' title={`leftSlide-${hotel.name}`}>
                             <div className='bg-black  w-7 h-7 absolute rounded-full'></div>
+                            <ArrowLeftCircleIcon className='absolute w-9  fill-white/75 hover:fill-white duration-200' />
+                        </button> */}
+                        <button type='button' onClick={slideRight} className='absolute flex justify-center items-center top-[50%] right-0 rounded-full w-8 h-8' title={`rightSlide-${hotel.name}`}>
+                           {/*  <div className='bg-black  w-7 h-7 absolute rounded-full'></div> */}
                             <ArrowRightCircleIcon className='absolute w-9  fill-white/75 hover:fill-white duration-200' />
                         </button>
                     </div>
                     <div className="card-body text-sm py-2 ">
                         <div className='flex justify-between font-medium '>
-                            <h5 className="card-title ">{hotel.name} </h5>
+                            <h5 className="card-title capitalize ">{hotel.name} </h5>
                             <div className='flex flex-row w-10 h-6 items-center justify-end'>
                                 <StarIcon className='w-4' />
                                 <span>{hotel.ranking}</span>
