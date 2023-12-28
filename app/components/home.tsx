@@ -12,7 +12,7 @@ const Home = () => {
       <span className='text-lime-800 text-2xl'>
        Donde hospedarse?
       </span>
-      <Link href="/plans" className='rounded-full px-4 py-2 border-2  bg-lime-600 text-white'>Ver hoteles</Link>
+      <Link href="/#hotels" className='rounded-full px-4 py-2 border-2  bg-lime-600 text-white'>Ver hoteles</Link>
     </div>
   </section>
   )

@@ -7,3 +7,12 @@
         )
     );
 }
+.cards-place-container{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            448px, 1fr
+        )
+    );
+}
